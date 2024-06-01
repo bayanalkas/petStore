@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+}
+
+h1, h2, h3{
+    clear:left;
+    font-size: 20px;
+}
+
+header h1, header h2 {
+    text-indent: 20px;
+}
+
+h1:first-of-type::first-letter{
+    font-size: larger;
+}
+
+h1{
+    color: blue;
+    font-style: italic;
+    text-shadow: 3px 3px yellow;
+}
+
+img{
+    float: left;
+}
+
+a{
+    font-weight: bold;
+    color: orange;
+}
+
+a:focus{
+    color: green;
+}
+
+a:hover{
+    color: green;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+footer{
+    font-size: smaller;
+    text-align: center;
+}
